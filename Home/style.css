@@ -7,17 +7,37 @@ nav{
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 2px 12px #00000042;
 }
 .nav-item{
     display: flex;
     align-items: center;
     gap: 3px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: black;
+    opacity: 0.6;
+    transition: all 200ms ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-item:hover{
+    opacity: 1;
 }
 
 .nav-icon{
     width: 40px;
     height: auto;
+}
+
+.s1{
+    background-image: url(../assets/images/8804a771b0e4b45f798db61749d9de8f.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 2px 12px #000000c7
+
+
 }
